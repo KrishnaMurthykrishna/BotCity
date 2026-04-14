@@ -1,0 +1,65 @@
+# REST API Testing Framework Requirements
+# Install these packages using: pip install -r requirements.txt
+
+# Core HTTP library for making API requests
+requests>=2.31.0
+
+# For advanced HTTP features (if needed)
+urllib3>=2.0.0
+
+# JSON handling (usually included with Python)
+# json - built-in module
+
+# For additional testing features (optional)
+pytest>=7.4.0
+pytest-html>=3.2.0
+
+# For data validation (optional)
+jsonschema>=4.19.0
+
+# For performance testing (optional)
+locust>=2.16.0
+
+# For mock servers during testing (optional)
+responses>=0.23.0
+
+# For environment variable management (optional)
+python-dotenv>=1.0.0
+
+# =====================================
+# DATABASE OPERATIONS (MSSQL)
+# =====================================
+
+# Core data manipulation and analysis
+pandas>=2.1.0
+
+# MSSQL database connectivity
+pyodbc>=4.0.39
+
+# SQLAlchemy ORM for database operations
+sqlalchemy>=2.0.0
+
+# For enhanced data types and validation
+numpy>=1.24.0
+
+# For configuration management
+ConfigParser>=5.3.0
+
+# =====================================
+# OPEN SOURCE DATABASE OPERATIONS
+# =====================================
+
+# SQLite support (built into Python - no additional packages needed)
+# sqlite3 is included with Python standard library
+
+# PostgreSQL support
+psycopg2-binary>=2.9.0  # PostgreSQL adapter
+
+# MySQL/MariaDB support  
+PyMySQL>=1.0.0          # Pure Python MySQL client
+
+# Enhanced security for MySQL connections
+cryptography>=3.4.8
+
+# Additional database utilities
+# Note: SQLite requires no additional packages - it's built into Python!

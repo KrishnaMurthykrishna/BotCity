@@ -1,0 +1,13 @@
+2026-04-13 22:47:24,065 - INFO - 🚀 Universal CRUD Framework initialized for SQLITE
+2026-04-13 22:47:24,105 - INFO - ✅ SQLITE connection established
+2026-04-13 22:47:24,105 - INFO - 📁 SQLite database: C:\Users\skrishna\Downloads\Contra_SFDC_WW_Cancelled_Report_SFDC (1)\Controltower\database_actions\instant_demo_20260413_224724.db
+2026-04-13 22:47:24,182 - INFO - ✅ Successfully inserted 10 rows into users
+2026-04-13 22:47:24,195 - INFO - 📊 Successfully read 10 rows from users
+2026-04-13 22:47:24,236 - INFO - 📊 Read 3 rows from users with conditions
+2026-04-13 22:47:24,274 - INFO - ✅ Updated 3 rows in users
+2026-04-13 22:47:24,275 - INFO - 📊 Query executed successfully, returned 3 rows
+2026-04-13 22:47:24,303 - INFO - 🗑️ Deleted 2 rows from users
+2026-04-13 22:47:24,305 - INFO - 📊 Row count for users: 8
+2026-04-13 22:47:24,307 - INFO - 📋 Retrieved structure info for users
+2026-04-13 22:47:24,313 - INFO - 🔒 Database session closed
+2026-04-13 22:47:24,318 - INFO - 🔒 Database engine disposed

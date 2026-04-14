@@ -1,0 +1,96 @@
+2026-04-10 12:45:23,525 - INFO - [selenium_framework.py:104] - setup_logging() - 🚀 Selenium logging initialized - Log file: logs\selenium_testing_20260410_124523.log
+2026-04-10 12:45:23,531 - INFO - [selenium_framework.py:115] - create_screenshots_directory() - 📁 Screenshots directory created: screenshots/selenium_test_20260410_124523
+2026-04-10 12:45:23,531 - INFO - [selenium_framework.py:78] - __init__() - 🚀 Selenium Testing Framework initialized
+2026-04-10 12:45:23,531 - INFO - [selenium_framework.py:79] - __init__() - 🌐 Browser: chrome
+2026-04-10 12:45:23,531 - INFO - [selenium_framework.py:80] - __init__() - 👁️ Headless mode: False
+2026-04-10 12:45:23,535 - INFO - [selenium_framework.py:121] - start_browser() - 🚀 Starting chrome browser...
+2026-04-10 12:45:28,106 - INFO - [selenium_framework.py:163] - start_browser() - ✅ Browser started successfully
+2026-04-10 12:45:28,115 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 12:45:33,652 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 12:45:33,654 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 12:45:33,820 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_124523\demo_homepage.png
+2026-04-10 12:45:33,821 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Form Authentication link
+2026-04-10 12:45:35,676 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Form Authentication link
+2026-04-10 12:45:35,676 - INFO - [selenium_framework.py:296] - type_text() - ⌨️ Typing into Username field: 'tomsmith'
+2026-04-10 12:45:36,032 - INFO - [selenium_framework.py:308] - type_text() - ✅ Successfully typed into Username field
+2026-04-10 12:45:36,032 - INFO - [selenium_framework.py:296] - type_text() - ⌨️ Typing into Password field: 'SuperSecretPassword!'
+2026-04-10 12:45:36,289 - INFO - [selenium_framework.py:308] - type_text() - ✅ Successfully typed into Password field
+2026-04-10 12:45:36,475 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_124523\demo_before_login.png
+2026-04-10 12:45:36,477 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Login button
+2026-04-10 12:45:37,337 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Login button
+2026-04-10 12:45:39,441 - INFO - [selenium_framework.py:443] - get_element_text() - 📝 Got text from Success message: 'You logged into a secure area!
+×'
+2026-04-10 12:45:39,578 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_124523\demo_login_success.png
+2026-04-10 12:45:39,579 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 12:45:40,021 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 12:45:40,022 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 12:45:40,028 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Checkboxes link
+2026-04-10 12:45:40,840 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Checkboxes link
+2026-04-10 12:45:51,291 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_124523\demo_checkboxes.png
+2026-04-10 12:45:51,295 - INFO - [selenium_framework.py:479] - close_browser() - 🛑 Closing browser...
+2026-04-10 12:45:56,858 - INFO - [selenium_framework.py:481] - close_browser() - ✅ Browser closed successfully
+2026-04-10 12:45:56,870 - INFO - [selenium_framework.py:104] - setup_logging() - 🚀 Selenium logging initialized - Log file: logs\selenium_testing_20260410_124556.log
+2026-04-10 12:45:56,876 - INFO - [selenium_framework.py:115] - create_screenshots_directory() - 📁 Screenshots directory created: screenshots/selenium_test_20260410_124556
+2026-04-10 12:45:56,880 - INFO - [selenium_framework.py:78] - __init__() - 🚀 Selenium Testing Framework initialized
+2026-04-10 12:45:56,881 - INFO - [selenium_framework.py:79] - __init__() - 🌐 Browser: chrome
+2026-04-10 12:45:56,881 - INFO - [selenium_framework.py:80] - __init__() - 👁️ Headless mode: False
+2026-04-10 12:45:56,883 - INFO - [selenium_framework.py:121] - start_browser() - 🚀 Starting chrome browser...
+2026-04-10 12:46:00,848 - INFO - [selenium_framework.py:163] - start_browser() - ✅ Browser started successfully
+2026-04-10 12:46:00,864 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com/dynamic_loading/1
+2026-04-10 12:46:06,415 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/dynamic_loading/1
+2026-04-10 12:46:06,417 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 12:46:06,446 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: css selector = 'div#start button'
+2026-04-10 12:46:06,719 - INFO - [selenium_framework.py:443] - get_element_text() - 📝 Got text from Finish message: ''
+2026-04-10 12:46:06,899 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_124556\mini_test_1.png
+2026-04-10 12:46:08,901 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com/hovers
+2026-04-10 12:46:10,131 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/hovers
+2026-04-10 12:46:10,131 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 12:46:10,176 - INFO - [selenium_framework.py:410] - hover_element() - 🖱️ Hovering over: Hover image 1
+2026-04-10 12:46:30,932 - ERROR - [selenium_framework.py:422] - hover_element() - ❌ Failed to hover over Hover image 1: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7252a29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff724fca0d0+14e90]
+	chromedriver!(No symbol) [0x7ff724d2db2d]
+	chromedriver!(No symbol) [0x7ff724d86b9e]
+	chromedriver!(No symbol) [0x7ff724d86eac]
+	chromedriver!(No symbol) [0x7ff724dd6fe7]
+	chromedriver!(No symbol) [0x7ff724dd3b9b]
+	chromedriver!(No symbol) [0x7ff724d79298]
+	chromedriver!(No symbol) [0x7ff724d7a183]
+	chromedriver!GetHandleVerifier [0x7ff7252cde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7252c8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7252e9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff724fe6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff724fefacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff724fd3634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff724fd37e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff724fb7e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 12:46:30,934 - INFO - [selenium_framework.py:410] - hover_element() - 🖱️ Hovering over: Hover image 2
+2026-04-10 12:46:51,620 - ERROR - [selenium_framework.py:422] - hover_element() - ❌ Failed to hover over Hover image 2: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7252a29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff724fca0d0+14e90]
+	chromedriver!(No symbol) [0x7ff724d2db2d]
+	chromedriver!(No symbol) [0x7ff724d86b9e]
+	chromedriver!(No symbol) [0x7ff724d86eac]
+	chromedriver!(No symbol) [0x7ff724dd6fe7]
+	chromedriver!(No symbol) [0x7ff724dd3b9b]
+	chromedriver!(No symbol) [0x7ff724d79298]
+	chromedriver!(No symbol) [0x7ff724d7a183]
+	chromedriver!GetHandleVerifier [0x7ff7252cde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7252c8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7252e9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff724fe6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff724fefacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff724fd3634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff724fd37e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff724fb7e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 12:46:52,016 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_124556\mini_test_2.png
+2026-04-10 12:46:54,048 - INFO - [selenium_framework.py:479] - close_browser() - 🛑 Closing browser...
+2026-04-10 12:47:00,216 - INFO - [selenium_framework.py:481] - close_browser() - ✅ Browser closed successfully

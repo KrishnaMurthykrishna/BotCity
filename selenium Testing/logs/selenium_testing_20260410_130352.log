@@ -1,0 +1,26 @@
+2026-04-10 13:03:52,145 - INFO - [selenium_framework.py:104] - setup_logging() - 🚀 Selenium logging initialized - Log file: logs\selenium_testing_20260410_130352.log
+2026-04-10 13:03:52,153 - INFO - [selenium_framework.py:115] - create_screenshots_directory() - 📁 Screenshots directory created: screenshots/selenium_test_20260410_130352
+2026-04-10 13:03:52,153 - INFO - [selenium_framework.py:78] - __init__() - 🚀 Selenium Testing Framework initialized
+2026-04-10 13:03:52,158 - INFO - [selenium_framework.py:79] - __init__() - 🌐 Browser: chrome
+2026-04-10 13:03:52,160 - INFO - [selenium_framework.py:80] - __init__() - 👁️ Headless mode: False
+2026-04-10 13:03:52,164 - INFO - [selenium_framework.py:121] - start_browser() - 🚀 Starting chrome browser...
+2026-04-10 13:03:57,961 - INFO - [selenium_framework.py:163] - start_browser() - ✅ Browser started successfully
+2026-04-10 13:03:57,980 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:04:05,391 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:04:05,394 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:04:05,585 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130352\demo_homepage.png
+2026-04-10 13:04:05,587 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Form Authentication link
+2026-04-10 13:04:07,932 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Form Authentication link
+2026-04-10 13:04:07,935 - INFO - [selenium_framework.py:296] - type_text() - ⌨️ Typing into Username field: 'tomsmith'
+2026-04-10 13:04:08,873 - INFO - [selenium_framework.py:308] - type_text() - ✅ Successfully typed into Username field
+2026-04-10 13:04:08,898 - INFO - [selenium_framework.py:296] - type_text() - ⌨️ Typing into Password field: 'SuperSecretPassword!'
+2026-04-10 13:04:11,762 - INFO - [selenium_framework.py:308] - type_text() - ✅ Successfully typed into Password field
+2026-04-10 13:04:12,284 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130352\demo_before_login.png
+2026-04-10 13:04:12,298 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Login button
+2026-04-10 13:04:14,871 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Login button
+2026-04-10 13:04:17,246 - INFO - [selenium_framework.py:443] - get_element_text() - 📝 Got text from Success message: 'You logged into a secure area!
+×'
+2026-04-10 13:04:17,922 - INFO - [selenium_framework.py:443] - get_element_text() - 📝 Got text from Main heading: 'Secure Area'
+2026-04-10 13:04:18,223 - INFO - [selenium_framework.py:443] - get_element_text() - 📝 Got text from Secure area content: 'Secure Area
+Welcome to the Secure Area. When you are done click logout below.
+Logout'

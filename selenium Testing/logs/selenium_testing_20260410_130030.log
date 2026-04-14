@@ -1,0 +1,427 @@
+2026-04-10 13:00:30,664 - INFO - [selenium_framework.py:104] - setup_logging() - 🚀 Selenium logging initialized - Log file: logs\selenium_testing_20260410_130030.log
+2026-04-10 13:00:30,669 - INFO - [selenium_framework.py:115] - create_screenshots_directory() - 📁 Screenshots directory created: screenshots/selenium_test_20260410_130030
+2026-04-10 13:00:30,670 - INFO - [selenium_framework.py:78] - __init__() - 🚀 Selenium Testing Framework initialized
+2026-04-10 13:00:30,670 - INFO - [selenium_framework.py:79] - __init__() - 🌐 Browser: chrome
+2026-04-10 13:00:30,672 - INFO - [selenium_framework.py:80] - __init__() - 👁️ Headless mode: False
+2026-04-10 13:00:30,674 - INFO - [selenium_framework.py:121] - start_browser() - 🚀 Starting chrome browser...
+2026-04-10 13:00:37,400 - INFO - [selenium_framework.py:163] - start_browser() - ✅ Browser started successfully
+2026-04-10 13:00:37,514 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:00:43,594 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:00:43,596 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:00:43,735 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130030\before_🏠_homepage_&_navigation.png
+2026-04-10 13:00:43,849 - INFO - [selenium_framework.py:443] - get_element_text() - 📝 Got text from Main heading: 'Welcome to the-internet'
+2026-04-10 13:01:04,536 - ERROR - [selenium_framework.py:449] - get_element_text() - ❌ Failed to get text from Subheading: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5db2d]
+	chromedriver!(No symbol) [0x7ff6e7ab6b9e]
+	chromedriver!(No symbol) [0x7ff6e7ab6eac]
+	chromedriver!(No symbol) [0x7ff6e7b06fe7]
+	chromedriver!(No symbol) [0x7ff6e7b03b9b]
+	chromedriver!(No symbol) [0x7ff6e7aa9298]
+	chromedriver!(No symbol) [0x7ff6e7aaa183]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff6e7d03634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6e7d037e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff6e7ce7e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:01:25,923 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:01:27,273 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:01:27,274 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:01:27,593 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130030\before_🔐_authentication_flow.png
+2026-04-10 13:01:27,597 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Auth link
+2026-04-10 13:01:30,423 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Auth link
+2026-04-10 13:01:32,527 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: css selector = 'form'
+2026-04-10 13:01:33,352 - INFO - [selenium_framework.py:296] - type_text() - ⌨️ Typing into Username: 'tomsmith'
+2026-04-10 13:01:33,796 - INFO - [selenium_framework.py:308] - type_text() - ✅ Successfully typed into Username
+2026-04-10 13:01:33,801 - INFO - [selenium_framework.py:296] - type_text() - ⌨️ Typing into Password: 'SuperSecretPassword!'
+2026-04-10 13:01:34,675 - INFO - [selenium_framework.py:308] - type_text() - ✅ Successfully typed into Password
+2026-04-10 13:01:34,745 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: css selector = 'button[type='submit']'
+2026-04-10 13:01:34,812 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Login button
+2026-04-10 13:01:36,694 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Login button
+2026-04-10 13:01:38,953 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: css selector = '.flash'
+2026-04-10 13:01:39,263 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'content'
+2026-04-10 13:01:48,554 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:01:49,032 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:01:49,035 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:01:49,272 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130030\before_📊_data_tables_analysis.png
+2026-04-10 13:01:49,274 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Tables link
+2026-04-10 13:01:51,138 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Tables link
+2026-04-10 13:02:16,844 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:02:17,365 - ERROR - [selenium_framework.py:202] - navigate_to() - ❌ Navigation failed to https://the-internet.herokuapp.com: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,402 - ERROR - [selenium_framework.py:373] - take_screenshot() - ❌ Failed to take screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,439 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:02:17,453 - ERROR - [selenium_framework.py:202] - navigate_to() - ❌ Navigation failed to https://the-internet.herokuapp.com: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,491 - ERROR - [selenium_framework.py:373] - take_screenshot() - ❌ Failed to take screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,502 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:02:17,520 - ERROR - [selenium_framework.py:202] - navigate_to() - ❌ Navigation failed to https://the-internet.herokuapp.com: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,530 - ERROR - [selenium_framework.py:373] - take_screenshot() - ❌ Failed to take screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,555 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:02:17,560 - ERROR - [selenium_framework.py:202] - navigate_to() - ❌ Navigation failed to https://the-internet.herokuapp.com: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,610 - ERROR - [selenium_framework.py:373] - take_screenshot() - ❌ Failed to take screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,614 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:02:17,621 - ERROR - [selenium_framework.py:202] - navigate_to() - ❌ Navigation failed to https://the-internet.herokuapp.com: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,641 - ERROR - [selenium_framework.py:373] - take_screenshot() - ❌ Failed to take screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,661 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:02:17,671 - ERROR - [selenium_framework.py:202] - navigate_to() - ❌ Navigation failed to https://the-internet.herokuapp.com: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,679 - ERROR - [selenium_framework.py:373] - take_screenshot() - ❌ Failed to take screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,719 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:02:17,733 - ERROR - [selenium_framework.py:202] - navigate_to() - ❌ Navigation failed to https://the-internet.herokuapp.com: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,743 - ERROR - [selenium_framework.py:373] - take_screenshot() - ❌ Failed to take screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,752 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:02:17,757 - ERROR - [selenium_framework.py:202] - navigate_to() - ❌ Navigation failed to https://the-internet.herokuapp.com: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,771 - ERROR - [selenium_framework.py:373] - take_screenshot() - ❌ Failed to take screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,804 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:02:17,813 - ERROR - [selenium_framework.py:202] - navigate_to() - ❌ Navigation failed to https://the-internet.herokuapp.com: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,837 - ERROR - [selenium_framework.py:373] - take_screenshot() - ❌ Failed to take screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5d916]
+	chromedriver!(No symbol) [0x7ff6e7aa8313]
+	chromedriver!(No symbol) [0x7ff6e7adfe92]
+	chromedriver!(No symbol) [0x7ff6e7ada011]
+	chromedriver!(No symbol) [0x7ff6e7ad92c3]
+	chromedriver!(No symbol) [0x7ff6e7a26565]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!(No symbol) [0x7ff6e7a2532a]
+	chromedriver!GetHandleVerifier [0x7ff6e8154b48+46f908]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:02:17,855 - INFO - [selenium_framework.py:479] - close_browser() - 🛑 Closing browser...
+2026-04-10 13:02:20,242 - INFO - [selenium_framework.py:481] - close_browser() - ✅ Browser closed successfully

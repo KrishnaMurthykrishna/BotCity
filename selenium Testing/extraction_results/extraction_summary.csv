@@ -1,0 +1,34 @@
+Category,Subcategory,Data Type,Count,Details
+homepage,title,Value,1,The Internet
+homepage,url,Value,1,https://the-internet.herokuapp.com/
+homepage,timestamp,Value,1,2026-04-10 17:34:46
+homepage,main_heading,Value,1,Welcome to the-internet
+homepage,subheading,Value,1,
+homepage,navigation_links,List,44,44 items
+homepage,total_nav_links,Value,1,44
+homepage,page_source_length,Value,1,4063
+authentication,login_page_url,Value,1,https://the-internet.herokuapp.com/login
+authentication,login_page_title,Value,1,The Internet
+authentication,form_structure,Dictionary,3,3 keys
+authentication,secure_area,Dictionary,6,6 keys
+tables,page_url,Value,1,https://the-internet.herokuapp.com/
+tables,page_title,Value,1,The Internet
+tables,tables,List,0,0 items
+forms,dropdowns,Dictionary,2,2 keys
+forms,checkboxes,Dictionary,2,2 keys
+file_operations,downloads,Dictionary,2,2 keys
+file_operations,uploads,Dictionary,2,2 keys
+alerts,page_url,Value,1,https://the-internet.herokuapp.com/javascript_alerts
+alerts,alert_buttons,List,3,3 items
+alerts,alert_tests,List,0,0 items
+status_codes,page_url,Value,1,https://the-internet.herokuapp.com/status_codes
+status_codes,available_codes,List,5,5 items
+status_codes,status_tests,List,5,5 items
+interactive,hovers,Dictionary,2,2 keys
+interactive,drag_drop,Dictionary,3,3 keys
+dynamic_loading,page_url,Value,1,https://the-internet.herokuapp.com/dynamic_loading
+dynamic_loading,examples,List,2,2 items
+dynamic_loading,tests,List,2,2 items
+visual_elements,context_menu,Dictionary,3,3 keys
+utility_pages,broken_images,Dictionary,2,2 keys
+performance,large_dom,Dictionary,3,3 keys

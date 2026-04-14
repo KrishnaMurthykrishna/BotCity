@@ -1,0 +1,219 @@
+2026-04-10 11:51:41,853 - INFO - [REST_API_Testing.py:63] - setup_logging() - 🚀 API Testing logging initialized successfully - Log file: C:\Users\skrishna\Downloads\Contra_SFDC_WW_Cancelled_Report_SFDC (1)\Controltower\API_Testing\logs\REST_API_Testing_20260410_115141.log
+2026-04-10 11:51:41,855 - INFO - [REST_API_Testing.py:128] - __init__() - 🏗️ API Testing Framework initialized
+2026-04-10 11:51:41,855 - INFO - [REST_API_Testing.py:129] - __init__() - 🌐 Base URL: http://httpbin.org
+2026-04-10 11:51:41,855 - INFO - [REST_API_Testing.py:130] - __init__() - ⏱️ Timeout: 15s
+2026-04-10 11:51:41,855 - INFO - [REST_API_Testing.py:131] - __init__() - 🔒 SSL Verification: Disabled
+2026-04-10 11:51:41,856 - INFO - [REST_API_Testing.py:192] - get_request() - 🔍 Starting GET request to: /get
+2026-04-10 11:51:41,856 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 GET Request: http://httpbin.org/get
+2026-04-10 11:51:42,625 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 200 OK
+2026-04-10 11:51:42,626 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 0.767s
+2026-04-10 11:51:42,626 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 396 bytes
+2026-04-10 11:51:42,626 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Date': 'Fri, 10 Apr 2026 06:21:42 GMT', 'Content-Type': 'application/json', 'Content-Length': '396', 'Connection': 'keep-alive', 'Server': 'gunicorn/19.9.0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true'}
+2026-04-10 11:51:42,626 - INFO - [REST_API_Testing.py:219] - get_request() - ✅ GET request completed successfully
+2026-04-10 11:51:42,627 - INFO - [REST_API_Testing.py:192] - get_request() - 🔍 Starting GET request to: /get
+2026-04-10 11:51:42,627 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 GET Request: http://httpbin.org/get
+2026-04-10 11:51:42,627 - INFO - [REST_API_Testing.py:157] - _log_request() - 🔗 Query Parameters: {'name': 'TestUser', 'version': '1.0'}
+2026-04-10 11:51:42,881 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 200 OK
+2026-04-10 11:51:42,881 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 0.253s
+2026-04-10 11:51:42,881 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 471 bytes
+2026-04-10 11:51:42,882 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Date': 'Fri, 10 Apr 2026 06:21:42 GMT', 'Content-Type': 'application/json', 'Content-Length': '471', 'Connection': 'keep-alive', 'Server': 'gunicorn/19.9.0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true'}
+2026-04-10 11:51:42,882 - INFO - [REST_API_Testing.py:219] - get_request() - ✅ GET request completed successfully
+2026-04-10 11:51:42,882 - INFO - [REST_API_Testing.py:258] - post_request() - 📝 Starting POST request to: /post
+2026-04-10 11:51:42,883 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 POST Request: http://httpbin.org/post
+2026-04-10 11:51:42,883 - INFO - [REST_API_Testing.py:160] - _log_request() - 📋 Request Body: {
+  "message": "Hello from API Framework",
+  "timestamp": "2024-04-10"
+}
+2026-04-10 11:51:42,996 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 403 Forbidden
+2026-04-10 11:51:42,996 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 0.101s
+2026-04-10 11:51:42,996 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 14309 bytes
+2026-04-10 11:51:42,996 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Content-Type': 'text/html', 'Server': 'Zscaler/6.2', 'Cache-Control': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-length': '14309'}
+2026-04-10 11:51:42,996 - INFO - [REST_API_Testing.py:292] - post_request() - ✅ POST request completed successfully
+2026-04-10 11:51:42,998 - INFO - [REST_API_Testing.py:331] - put_request() - 🔄 Starting PUT request to: /put
+2026-04-10 11:51:42,998 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 PUT Request: http://httpbin.org/put
+2026-04-10 11:51:42,998 - INFO - [REST_API_Testing.py:163] - _log_request() - 📄 Form Data: {'field1': 'value1', 'field2': 'value2'}
+2026-04-10 11:51:43,360 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 200 OK
+2026-04-10 11:51:43,360 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 0.361s
+2026-04-10 11:51:43,361 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 515 bytes
+2026-04-10 11:51:43,361 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Date': 'Fri, 10 Apr 2026 06:21:43 GMT', 'Content-Type': 'application/json', 'Content-Length': '515', 'Connection': 'keep-alive', 'Server': 'gunicorn/19.9.0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true'}
+2026-04-10 11:51:43,361 - INFO - [REST_API_Testing.py:365] - put_request() - ✅ PUT request completed successfully
+2026-04-10 11:51:43,362 - INFO - [REST_API_Testing.py:473] - delete_request() - 🗑️ Starting DELETE request to: /delete
+2026-04-10 11:51:43,362 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 DELETE Request: http://httpbin.org/delete
+2026-04-10 11:51:43,618 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 200 OK
+2026-04-10 11:51:43,619 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 0.256s
+2026-04-10 11:51:43,619 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 490 bytes
+2026-04-10 11:51:43,620 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Date': 'Fri, 10 Apr 2026 06:21:43 GMT', 'Content-Type': 'application/json', 'Content-Length': '490', 'Connection': 'keep-alive', 'Server': 'gunicorn/19.9.0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true'}
+2026-04-10 11:51:43,620 - INFO - [REST_API_Testing.py:502] - delete_request() - ✅ DELETE request completed successfully
+2026-04-10 11:51:43,621 - INFO - [REST_API_Testing.py:192] - get_request() - 🔍 Starting GET request to: /status/200
+2026-04-10 11:51:43,621 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 GET Request: http://httpbin.org/status/200
+2026-04-10 11:51:45,246 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 200 OK
+2026-04-10 11:51:45,247 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 1.624s
+2026-04-10 11:51:45,247 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 0 bytes
+2026-04-10 11:51:45,248 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Date': 'Fri, 10 Apr 2026 06:21:45 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '0', 'Connection': 'keep-alive', 'Server': 'gunicorn/19.9.0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true'}
+2026-04-10 11:51:45,248 - INFO - [REST_API_Testing.py:219] - get_request() - ✅ GET request completed successfully
+2026-04-10 11:51:45,248 - INFO - [REST_API_Testing.py:192] - get_request() - 🔍 Starting GET request to: /status/201
+2026-04-10 11:51:45,249 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 GET Request: http://httpbin.org/status/201
+2026-04-10 11:51:45,499 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 201 CREATED
+2026-04-10 11:51:45,500 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 0.250s
+2026-04-10 11:51:45,500 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 0 bytes
+2026-04-10 11:51:45,501 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Date': 'Fri, 10 Apr 2026 06:21:45 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '0', 'Connection': 'keep-alive', 'Server': 'gunicorn/19.9.0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true'}
+2026-04-10 11:51:45,501 - INFO - [REST_API_Testing.py:219] - get_request() - ✅ GET request completed successfully
+2026-04-10 11:51:45,501 - INFO - [REST_API_Testing.py:192] - get_request() - 🔍 Starting GET request to: /status/404
+2026-04-10 11:51:45,501 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 GET Request: http://httpbin.org/status/404
+2026-04-10 11:51:45,754 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 404 NOT FOUND
+2026-04-10 11:51:45,754 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 0.252s
+2026-04-10 11:51:45,755 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 0 bytes
+2026-04-10 11:51:45,755 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Date': 'Fri, 10 Apr 2026 06:21:45 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '0', 'Connection': 'keep-alive', 'Server': 'gunicorn/19.9.0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true'}
+2026-04-10 11:51:45,755 - INFO - [REST_API_Testing.py:219] - get_request() - ✅ GET request completed successfully
+2026-04-10 11:51:45,755 - INFO - [REST_API_Testing.py:192] - get_request() - 🔍 Starting GET request to: /status/500
+2026-04-10 11:51:45,755 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 GET Request: http://httpbin.org/status/500
+2026-04-10 11:51:46,008 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 500 INTERNAL SERVER ERROR
+2026-04-10 11:51:46,008 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 0.252s
+2026-04-10 11:51:46,009 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 0 bytes
+2026-04-10 11:51:46,009 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Date': 'Fri, 10 Apr 2026 06:21:45 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '0', 'Connection': 'keep-alive', 'Server': 'gunicorn/19.9.0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true'}
+2026-04-10 11:51:46,009 - INFO - [REST_API_Testing.py:219] - get_request() - ✅ GET request completed successfully
+2026-04-10 11:51:46,012 - INFO - [REST_API_Testing.py:128] - __init__() - 🏗️ API Testing Framework initialized
+2026-04-10 11:51:46,012 - INFO - [REST_API_Testing.py:129] - __init__() - 🌐 Base URL: http://httpbin.org
+2026-04-10 11:51:46,012 - INFO - [REST_API_Testing.py:130] - __init__() - ⏱️ Timeout: 5s
+2026-04-10 11:51:46,012 - INFO - [REST_API_Testing.py:131] - __init__() - 🔒 SSL Verification: Disabled
+2026-04-10 11:51:46,013 - INFO - [REST_API_Testing.py:192] - get_request() - 🔍 Starting GET request to: /nonexistent-endpoint
+2026-04-10 11:51:46,013 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 GET Request: http://httpbin.org/nonexistent-endpoint
+2026-04-10 11:51:46,419 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 404 NOT FOUND
+2026-04-10 11:51:46,420 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 0.405s
+2026-04-10 11:51:46,420 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 233 bytes
+2026-04-10 11:51:46,420 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Date': 'Fri, 10 Apr 2026 06:21:46 GMT', 'Content-Type': 'text/html', 'Content-Length': '233', 'Connection': 'keep-alive', 'Server': 'gunicorn/19.9.0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true'}
+2026-04-10 11:51:46,421 - INFO - [REST_API_Testing.py:219] - get_request() - ✅ GET request completed successfully
+2026-04-10 11:51:46,422 - INFO - [REST_API_Testing.py:128] - __init__() - 🏗️ API Testing Framework initialized
+2026-04-10 11:51:46,422 - INFO - [REST_API_Testing.py:129] - __init__() - 🌐 Base URL: http://httpbin.org
+2026-04-10 11:51:46,422 - INFO - [REST_API_Testing.py:130] - __init__() - ⏱️ Timeout: 2s
+2026-04-10 11:51:46,422 - INFO - [REST_API_Testing.py:131] - __init__() - 🔒 SSL Verification: Disabled
+2026-04-10 11:51:46,423 - INFO - [REST_API_Testing.py:192] - get_request() - 🔍 Starting GET request to: /delay/5
+2026-04-10 11:51:46,423 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 GET Request: http://httpbin.org/delay/5
+2026-04-10 11:51:48,441 - ERROR - [REST_API_Testing.py:226] - get_request() - ❌ GET request failed for /delay/5: HTTPConnectionPool(host='httpbin.org', port=80): Read timed out. (read timeout=2)
+2026-04-10 11:51:48,451 - ERROR - [REST_API_Testing.py:227] - get_request() - ❌ Traceback: Traceback (most recent call last):
+  File "C:\Python_3_12\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Python_3_12\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_3_12\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+  File "C:\Python_3_12\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_3_12\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_3_12\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python_3_12\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Python_3_12\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Python_3_12\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_3_12\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Python_3_12\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_3_12\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Python_3_12\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='httpbin.org', port=80): Read timed out. (read timeout=2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\skrishna\Downloads\Contra_SFDC_WW_Cancelled_Report_SFDC (1)\Controltower\API_Testing\REST_API_Testing.py", line 210, in get_request
+    response = self.session.get(url, **request_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_3_12\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_3_12\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_3_12\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_3_12\Lib\site-packages\requests\adapters.py", line 690, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='httpbin.org', port=80): Read timed out. (read timeout=2)
+
+2026-04-10 11:51:48,452 - INFO - [REST_API_Testing.py:192] - get_request() - 🔍 Starting GET request to: invalid-path-format
+2026-04-10 11:51:48,452 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 GET Request: http://httpbin.org/invalid-path-format
+2026-04-10 11:51:49,049 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 404 NOT FOUND
+2026-04-10 11:51:49,050 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 0.597s
+2026-04-10 11:51:49,050 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 233 bytes
+2026-04-10 11:51:49,051 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Date': 'Fri, 10 Apr 2026 06:21:48 GMT', 'Content-Type': 'text/html', 'Content-Length': '233', 'Connection': 'keep-alive', 'Server': 'gunicorn/19.9.0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true'}
+2026-04-10 11:51:49,051 - INFO - [REST_API_Testing.py:219] - get_request() - ✅ GET request completed successfully
+2026-04-10 11:51:49,052 - INFO - [REST_API_Testing.py:128] - __init__() - 🏗️ API Testing Framework initialized
+2026-04-10 11:51:49,053 - INFO - [REST_API_Testing.py:129] - __init__() - 🌐 Base URL: http://httpbin.org
+2026-04-10 11:51:49,053 - INFO - [REST_API_Testing.py:130] - __init__() - ⏱️ Timeout: 10s
+2026-04-10 11:51:49,053 - INFO - [REST_API_Testing.py:131] - __init__() - 🔒 SSL Verification: Disabled
+2026-04-10 11:51:49,053 - INFO - [REST_API_Testing.py:258] - post_request() - 📝 Starting POST request to: /post
+2026-04-10 11:51:49,054 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 POST Request: http://httpbin.org/post
+2026-04-10 11:51:49,054 - INFO - [REST_API_Testing.py:160] - _log_request() - 📋 Request Body: {
+  "test": true,
+  "framework": "REST API Testing",
+  "version": 1.0
+}
+2026-04-10 11:51:49,206 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 403 Forbidden
+2026-04-10 11:51:49,207 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 0.135s
+2026-04-10 11:51:49,207 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 14309 bytes
+2026-04-10 11:51:49,208 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Content-Type': 'text/html', 'Server': 'Zscaler/6.2', 'Cache-Control': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-length': '14309'}
+2026-04-10 11:51:49,209 - INFO - [REST_API_Testing.py:292] - post_request() - ✅ POST request completed successfully
+2026-04-10 11:51:49,211 - INFO - [REST_API_Testing.py:192] - get_request() - 🔍 Starting GET request to: /html
+2026-04-10 11:51:49,212 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 GET Request: http://httpbin.org/html
+2026-04-10 11:51:49,745 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 200 OK
+2026-04-10 11:51:49,746 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 0.491s
+2026-04-10 11:51:49,746 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 3741 bytes
+2026-04-10 11:51:49,746 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Date': 'Fri, 10 Apr 2026 06:21:49 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '3741', 'Connection': 'keep-alive', 'Server': 'gunicorn/19.9.0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true'}
+2026-04-10 11:51:49,747 - INFO - [REST_API_Testing.py:219] - get_request() - ✅ GET request completed successfully
+2026-04-10 11:51:49,750 - INFO - [REST_API_Testing.py:192] - get_request() - 🔍 Starting GET request to: /xml
+2026-04-10 11:51:49,750 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 GET Request: http://httpbin.org/xml
+2026-04-10 11:51:50,276 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 200 OK
+2026-04-10 11:51:50,276 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 0.524s
+2026-04-10 11:51:50,277 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 522 bytes
+2026-04-10 11:51:50,277 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Date': 'Fri, 10 Apr 2026 06:21:50 GMT', 'Content-Type': 'application/xml', 'Content-Length': '522', 'Connection': 'keep-alive', 'Server': 'gunicorn/19.9.0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true'}
+2026-04-10 11:51:50,280 - INFO - [REST_API_Testing.py:219] - get_request() - ✅ GET request completed successfully
+2026-04-10 11:51:50,282 - INFO - [REST_API_Testing.py:128] - __init__() - 🏗️ API Testing Framework initialized
+2026-04-10 11:51:50,282 - INFO - [REST_API_Testing.py:129] - __init__() - 🌐 Base URL: http://httpbin.org
+2026-04-10 11:51:50,283 - INFO - [REST_API_Testing.py:130] - __init__() - ⏱️ Timeout: 10s
+2026-04-10 11:51:50,283 - INFO - [REST_API_Testing.py:131] - __init__() - 🔒 SSL Verification: Disabled
+2026-04-10 11:51:50,283 - INFO - [REST_API_Testing.py:192] - get_request() - 🔍 Starting GET request to: /get
+2026-04-10 11:51:50,283 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 GET Request: http://httpbin.org/get
+2026-04-10 11:51:50,284 - INFO - [REST_API_Testing.py:157] - _log_request() - 🔗 Query Parameters: {'request': 1}
+2026-04-10 11:51:50,753 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 200 OK
+2026-04-10 11:51:50,754 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 0.469s
+2026-04-10 11:51:50,754 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 428 bytes
+2026-04-10 11:51:50,754 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Date': 'Fri, 10 Apr 2026 06:21:50 GMT', 'Content-Type': 'application/json', 'Content-Length': '428', 'Connection': 'keep-alive', 'Server': 'gunicorn/19.9.0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true'}
+2026-04-10 11:51:50,754 - INFO - [REST_API_Testing.py:219] - get_request() - ✅ GET request completed successfully
+2026-04-10 11:51:50,755 - INFO - [REST_API_Testing.py:192] - get_request() - 🔍 Starting GET request to: /get
+2026-04-10 11:51:50,755 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 GET Request: http://httpbin.org/get
+2026-04-10 11:51:50,755 - INFO - [REST_API_Testing.py:157] - _log_request() - 🔗 Query Parameters: {'request': 2}
+2026-04-10 11:51:51,038 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 200 OK
+2026-04-10 11:51:51,038 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 0.282s
+2026-04-10 11:51:51,038 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 428 bytes
+2026-04-10 11:51:51,039 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Date': 'Fri, 10 Apr 2026 06:21:50 GMT', 'Content-Type': 'application/json', 'Content-Length': '428', 'Connection': 'keep-alive', 'Server': 'gunicorn/19.9.0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true'}
+2026-04-10 11:51:51,039 - INFO - [REST_API_Testing.py:219] - get_request() - ✅ GET request completed successfully
+2026-04-10 11:51:51,039 - INFO - [REST_API_Testing.py:192] - get_request() - 🔍 Starting GET request to: /get
+2026-04-10 11:51:51,040 - INFO - [REST_API_Testing.py:154] - _log_request() - 📤 GET Request: http://httpbin.org/get
+2026-04-10 11:51:51,040 - INFO - [REST_API_Testing.py:157] - _log_request() - 🔗 Query Parameters: {'request': 3}
+2026-04-10 11:51:51,294 - INFO - [REST_API_Testing.py:167] - _log_response() - 📥 Response Status: 200 OK
+2026-04-10 11:51:51,294 - INFO - [REST_API_Testing.py:168] - _log_response() - ⏱️ Response Time: 0.253s
+2026-04-10 11:51:51,295 - INFO - [REST_API_Testing.py:169] - _log_response() - 📏 Response Size: 428 bytes
+2026-04-10 11:51:51,295 - INFO - [REST_API_Testing.py:174] - _log_response() - 📋 Response Headers: {'Date': 'Fri, 10 Apr 2026 06:21:51 GMT', 'Content-Type': 'application/json', 'Content-Length': '428', 'Connection': 'keep-alive', 'Server': 'gunicorn/19.9.0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true'}
+2026-04-10 11:51:51,296 - INFO - [REST_API_Testing.py:219] - get_request() - ✅ GET request completed successfully

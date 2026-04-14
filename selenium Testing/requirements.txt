@@ -1,0 +1,32 @@
+# 🚀 Selenium Testing Suite Requirements
+# =====================================
+# 
+# This file contains all the Python packages needed to run
+# the comprehensive Selenium automation testing suite.
+#
+# Installation:
+#   pip install -r requirements.txt
+#
+# Or install individually:
+#   pip install selenium
+
+# Core Selenium WebDriver
+selenium>=4.15.0
+
+# Additional useful packages (optional but recommended)
+# Uncomment the lines below to install additional testing tools:
+
+# pytest>=7.4.0              # Advanced testing framework
+# pytest-html>=4.0.0         # HTML test reports  
+# allure-pytest>=2.13.2      # Beautiful test reporting
+# webdriver-manager>=4.0.0   # Automatic driver management
+# requests>=2.31.0           # HTTP requests for API testing
+# beautifulsoup4>=4.12.0     # HTML parsing
+# pillow>=10.0.0             # Image processing for screenshots
+# pandas>=2.1.0              # Data analysis for test results
+# openpyxl>=3.1.0            # Excel file handling
+
+# Note: 
+# - Chrome, Firefox, or Edge browsers must be installed separately
+# - ChromeDriver, GeckoDriver, or EdgeDriver will be managed automatically by Selenium 4.x
+# - For older Selenium versions, you may need webdriver-manager

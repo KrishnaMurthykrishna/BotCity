@@ -1,0 +1,253 @@
+2026-04-10 13:08:21,164 - INFO - [selenium_framework.py:104] - setup_logging() - 🚀 Selenium logging initialized - Log file: logs\selenium_testing_20260410_130821.log
+2026-04-10 13:08:21,185 - INFO - [selenium_framework.py:115] - create_screenshots_directory() - 📁 Screenshots directory created: screenshots/selenium_test_20260410_130821
+2026-04-10 13:08:21,185 - INFO - [selenium_framework.py:78] - __init__() - 🚀 Selenium Testing Framework initialized
+2026-04-10 13:08:21,187 - INFO - [selenium_framework.py:79] - __init__() - 🌐 Browser: chrome
+2026-04-10 13:08:21,189 - INFO - [selenium_framework.py:80] - __init__() - 👁️ Headless mode: False
+2026-04-10 13:08:21,189 - INFO - [selenium_framework.py:121] - start_browser() - 🚀 Starting chrome browser...
+2026-04-10 13:08:25,557 - INFO - [selenium_framework.py:163] - start_browser() - ✅ Browser started successfully
+2026-04-10 13:08:25,808 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:08:32,585 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:08:32,586 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:08:32,779 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130821\before_🏠_homepage_&_navigation.png
+2026-04-10 13:08:32,920 - INFO - [selenium_framework.py:443] - get_element_text() - 📝 Got text from Main heading: 'Welcome to the-internet'
+2026-04-10 13:08:53,595 - ERROR - [selenium_framework.py:449] - get_element_text() - ❌ Failed to get text from Subheading: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5db2d]
+	chromedriver!(No symbol) [0x7ff6e7ab6b9e]
+	chromedriver!(No symbol) [0x7ff6e7ab6eac]
+	chromedriver!(No symbol) [0x7ff6e7b06fe7]
+	chromedriver!(No symbol) [0x7ff6e7b03b9b]
+	chromedriver!(No symbol) [0x7ff6e7aa9298]
+	chromedriver!(No symbol) [0x7ff6e7aaa183]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff6e7d03634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6e7d037e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff6e7ce7e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:08:58,903 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:08:59,356 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:08:59,358 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:08:59,548 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130821\before_🔐_authentication_flow.png
+2026-04-10 13:08:59,548 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Auth link
+2026-04-10 13:09:01,678 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Auth link
+2026-04-10 13:09:03,758 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: css selector = 'form'
+2026-04-10 13:09:04,231 - INFO - [selenium_framework.py:296] - type_text() - ⌨️ Typing into Username: 'tomsmith'
+2026-04-10 13:09:04,614 - INFO - [selenium_framework.py:308] - type_text() - ✅ Successfully typed into Username
+2026-04-10 13:09:04,621 - INFO - [selenium_framework.py:296] - type_text() - ⌨️ Typing into Password: 'SuperSecretPassword!'
+2026-04-10 13:09:05,068 - INFO - [selenium_framework.py:308] - type_text() - ✅ Successfully typed into Password
+2026-04-10 13:09:05,106 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: css selector = 'button[type='submit']'
+2026-04-10 13:09:05,129 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Login button
+2026-04-10 13:09:06,640 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Login button
+2026-04-10 13:09:08,705 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: css selector = '.flash'
+2026-04-10 13:09:08,806 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'content'
+2026-04-10 13:09:18,889 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: css selector = 'a[href='/logout']'
+2026-04-10 13:09:21,110 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: css selector = '.flash'
+2026-04-10 13:09:22,138 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:09:22,553 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:09:22,555 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:09:22,704 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130821\before_📊_data_tables_analysis.png
+2026-04-10 13:09:22,704 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Tables link
+2026-04-10 13:09:23,451 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Tables link
+2026-04-10 13:09:36,531 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:09:36,943 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:09:36,943 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:09:37,096 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130821\before_📋_forms_&_inputs.png
+2026-04-10 13:09:37,096 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Dropdown link
+2026-04-10 13:09:38,254 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Dropdown link
+2026-04-10 13:09:40,636 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:09:41,044 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:09:41,045 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:09:41,046 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Checkboxes link
+2026-04-10 13:09:42,220 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Checkboxes link
+2026-04-10 13:09:46,764 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:09:47,191 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:09:47,193 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:09:47,369 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130821\before_📂_file_operations.png
+2026-04-10 13:09:47,369 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: File Download link
+2026-04-10 13:09:48,878 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: File Download link
+2026-04-10 13:10:03,213 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:10:04,056 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:10:04,063 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:10:04,069 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: File Upload link
+2026-04-10 13:10:06,628 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: File Upload link
+2026-04-10 13:10:08,720 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: css selector = 'form'
+2026-04-10 13:10:09,914 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:10:10,350 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:10:10,352 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:10:10,554 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130821\before_⚠️_javascript_alerts.png
+2026-04-10 13:10:10,555 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: JS Alerts link
+2026-04-10 13:10:11,780 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: JS Alerts link
+2026-04-10 13:10:19,426 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:10:20,209 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:10:20,211 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:10:20,379 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130821\before_🌐_http_status_codes.png
+2026-04-10 13:10:20,383 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Status Codes link
+2026-04-10 13:10:22,055 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Status Codes link
+2026-04-10 13:10:25,254 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml
+2026-04-10 13:10:28,212 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml
+2026-04-10 13:10:28,214 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: Hypertext Transfer Protocol (HTTP) Status Code Registry
+2026-04-10 13:10:51,044 - ERROR - [selenium_framework.py:449] - get_element_text() - ❌ Failed to get text from Status heading: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5db2d]
+	chromedriver!(No symbol) [0x7ff6e7ab6b9e]
+	chromedriver!(No symbol) [0x7ff6e7ab6eac]
+	chromedriver!(No symbol) [0x7ff6e7b06fe7]
+	chromedriver!(No symbol) [0x7ff6e7b03b9b]
+	chromedriver!(No symbol) [0x7ff6e7aa9298]
+	chromedriver!(No symbol) [0x7ff6e7aaa183]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff6e7d03634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6e7d037e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff6e7ce7e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:11:11,798 - ERROR - [selenium_framework.py:449] - get_element_text() - ❌ Failed to get text from Status description: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6e7fd29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6e7cfa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6e7a5db2d]
+	chromedriver!(No symbol) [0x7ff6e7ab6b9e]
+	chromedriver!(No symbol) [0x7ff6e7ab6eac]
+	chromedriver!(No symbol) [0x7ff6e7b06fe7]
+	chromedriver!(No symbol) [0x7ff6e7b03b9b]
+	chromedriver!(No symbol) [0x7ff6e7aa9298]
+	chromedriver!(No symbol) [0x7ff6e7aaa183]
+	chromedriver!GetHandleVerifier [0x7ff6e7ffde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6e7ff8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6e8019d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6e7d16785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6e7d1facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff6e7d03634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6e7d037e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff6e7ce7e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffde61ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffde848c48c+2c]
+
+2026-04-10 13:11:11,804 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com/status_codes
+2026-04-10 13:11:15,039 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/status_codes
+2026-04-10 13:11:15,042 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:11:16,073 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com/status_codes/200
+2026-04-10 13:11:17,110 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/status_codes/200
+2026-04-10 13:11:17,112 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:11:19,506 - INFO - [selenium_framework.py:443] - get_element_text() - 📝 Got text from Status heading: 'Status Codes'
+2026-04-10 13:11:19,616 - INFO - [selenium_framework.py:443] - get_element_text() - 📝 Got text from Status description: 'This page returned a 200 status code.
+
+For a definition and common list of HTTP status codes, go here'
+2026-04-10 13:11:19,618 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com/status_codes
+2026-04-10 13:11:20,228 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/status_codes
+2026-04-10 13:11:20,229 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:11:21,233 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com/status_codes/301
+2026-04-10 13:11:21,964 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/status_codes/301
+2026-04-10 13:11:21,964 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:11:25,094 - INFO - [selenium_framework.py:443] - get_element_text() - 📝 Got text from Status heading: 'Status Codes'
+2026-04-10 13:11:25,431 - INFO - [selenium_framework.py:443] - get_element_text() - 📝 Got text from Status description: 'This page returned a 301 status code.
+
+For a definition and common list of HTTP status codes, go here'
+2026-04-10 13:11:25,441 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com/status_codes
+2026-04-10 13:11:26,357 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/status_codes
+2026-04-10 13:11:26,364 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:11:27,396 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com/status_codes/404
+2026-04-10 13:11:28,744 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/status_codes/404
+2026-04-10 13:11:28,750 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:11:31,135 - INFO - [selenium_framework.py:443] - get_element_text() - 📝 Got text from Status heading: 'Status Codes'
+2026-04-10 13:11:31,420 - INFO - [selenium_framework.py:443] - get_element_text() - 📝 Got text from Status description: 'This page returned a 404 status code.
+
+For a definition and common list of HTTP status codes, go here'
+2026-04-10 13:11:31,427 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com/status_codes
+2026-04-10 13:11:37,332 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/status_codes
+2026-04-10 13:11:37,366 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:11:38,734 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com/status_codes/500
+2026-04-10 13:11:39,820 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/status_codes/500
+2026-04-10 13:11:39,822 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:11:41,953 - INFO - [selenium_framework.py:443] - get_element_text() - 📝 Got text from Status heading: 'Status Codes'
+2026-04-10 13:11:42,023 - INFO - [selenium_framework.py:443] - get_element_text() - 📝 Got text from Status description: 'This page returned a 500 status code.
+
+For a definition and common list of HTTP status codes, go here'
+2026-04-10 13:11:42,025 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com/status_codes
+2026-04-10 13:11:42,664 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/status_codes
+2026-04-10 13:11:42,666 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:11:44,668 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:11:45,784 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:11:45,786 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:11:45,978 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130821\before_🖱️_interactive_elements.png
+2026-04-10 13:11:45,979 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Hovers link
+2026-04-10 13:11:47,892 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Hovers link
+2026-04-10 13:11:54,390 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:11:55,026 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:11:55,026 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:11:55,027 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Drag Drop link
+2026-04-10 13:11:56,447 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Drag Drop link
+2026-04-10 13:12:02,278 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:12:02,917 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:12:02,917 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:12:03,023 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130821\before_📜_dynamic_content.png
+2026-04-10 13:12:03,023 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Dynamic Loading link
+2026-04-10 13:12:04,249 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Dynamic Loading link
+2026-04-10 13:12:06,306 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com/dynamic_loading/1
+2026-04-10 13:12:06,927 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/dynamic_loading/1
+2026-04-10 13:12:06,928 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:12:08,960 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: css selector = '#start button'
+2026-04-10 13:12:29,573 - WARNING - [selenium_framework.py:229] - find_element_safe() - ⏰ Element not found within 15s: id = 'loading'
+2026-04-10 13:12:29,591 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'finish'
+2026-04-10 13:12:29,689 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'finish'
+2026-04-10 13:12:30,209 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'finish'
+2026-04-10 13:12:30,733 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'finish'
+2026-04-10 13:12:31,249 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'finish'
+2026-04-10 13:12:31,771 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'finish'
+2026-04-10 13:12:32,290 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'finish'
+2026-04-10 13:12:32,808 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'finish'
+2026-04-10 13:12:33,328 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'finish'
+2026-04-10 13:12:33,847 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'finish'
+2026-04-10 13:12:34,367 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'finish'
+2026-04-10 13:12:34,884 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'finish'
+2026-04-10 13:12:34,898 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'finish'
+2026-04-10 13:12:34,909 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com/dynamic_loading
+2026-04-10 13:12:35,283 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/dynamic_loading
+2026-04-10 13:12:35,283 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:12:36,284 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com/dynamic_loading/2
+2026-04-10 13:12:36,654 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/dynamic_loading/2
+2026-04-10 13:12:36,654 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:12:38,669 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: css selector = '#start button'
+2026-04-10 13:12:59,236 - WARNING - [selenium_framework.py:229] - find_element_safe() - ⏰ Element not found within 15s: id = 'loading'
+2026-04-10 13:13:19,788 - WARNING - [selenium_framework.py:229] - find_element_safe() - ⏰ Element not found within 15s: id = 'finish'
+2026-04-10 13:13:24,912 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'finish'
+2026-04-10 13:13:24,925 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'finish'
+2026-04-10 13:13:24,937 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com/dynamic_loading
+2026-04-10 13:13:25,281 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/dynamic_loading
+2026-04-10 13:13:25,282 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:13:27,284 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:13:27,637 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:13:27,637 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:13:27,739 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130821\before_🎨_visual_elements.png
+2026-04-10 13:13:27,739 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Context Menu link
+2026-04-10 13:13:28,727 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Context Menu link
+2026-04-10 13:13:30,743 - INFO - [selenium_framework.py:225] - find_element_safe() - ✅ Element found: id = 'hot-spot'
+2026-04-10 13:13:33,135 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:13:33,529 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:13:33,530 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:13:33,669 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130821\before_🔧_utility_pages.png
+2026-04-10 13:13:33,670 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Broken Images link
+2026-04-10 13:13:35,733 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Broken Images link
+2026-04-10 13:13:38,874 - INFO - [selenium_framework.py:183] - navigate_to() - 🌐 Navigating to: https://the-internet.herokuapp.com
+2026-04-10 13:13:39,252 - INFO - [selenium_framework.py:194] - navigate_to() - ✅ Successfully navigated to: https://the-internet.herokuapp.com/
+2026-04-10 13:13:39,253 - INFO - [selenium_framework.py:195] - navigate_to() - 📄 Page title: The Internet
+2026-04-10 13:13:39,355 - INFO - [selenium_framework.py:368] - take_screenshot() - 📸 Screenshot saved: screenshots/selenium_test_20260410_130821\before_📊_performance_data.png
+2026-04-10 13:13:39,356 - INFO - [selenium_framework.py:249] - click_element() - 👆 Attempting to click: Large DOM link
+2026-04-10 13:13:41,864 - INFO - [selenium_framework.py:261] - click_element() - ✅ Successfully clicked: Large DOM link
+2026-04-10 13:13:45,922 - INFO - [selenium_framework.py:479] - close_browser() - 🛑 Closing browser...
+2026-04-10 13:13:48,754 - INFO - [selenium_framework.py:481] - close_browser() - ✅ Browser closed successfully

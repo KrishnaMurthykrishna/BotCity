@@ -1,0 +1,1153 @@
+{
+  "homepage": {
+    "title": "The Internet",
+    "url": "https://the-internet.herokuapp.com/",
+    "timestamp": "2026-04-10 17:34:46",
+    "main_heading": "Welcome to the-internet",
+    "subheading": "",
+    "navigation_links": [
+      {
+        "index": 1,
+        "text": "A/B Testing",
+        "href": "https://the-internet.herokuapp.com/abtest",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 2,
+        "text": "Add/Remove Elements",
+        "href": "https://the-internet.herokuapp.com/add_remove_elements/",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 3,
+        "text": "Basic Auth",
+        "href": "https://the-internet.herokuapp.com/basic_auth",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 4,
+        "text": "Broken Images",
+        "href": "https://the-internet.herokuapp.com/broken_images",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 5,
+        "text": "Challenging DOM",
+        "href": "https://the-internet.herokuapp.com/challenging_dom",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 6,
+        "text": "Checkboxes",
+        "href": "https://the-internet.herokuapp.com/checkboxes",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 7,
+        "text": "Context Menu",
+        "href": "https://the-internet.herokuapp.com/context_menu",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 8,
+        "text": "Digest Authentication",
+        "href": "https://the-internet.herokuapp.com/digest_auth",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 9,
+        "text": "Disappearing Elements",
+        "href": "https://the-internet.herokuapp.com/disappearing_elements",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 10,
+        "text": "Drag and Drop",
+        "href": "https://the-internet.herokuapp.com/drag_and_drop",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 11,
+        "text": "Dropdown",
+        "href": "https://the-internet.herokuapp.com/dropdown",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 12,
+        "text": "Dynamic Content",
+        "href": "https://the-internet.herokuapp.com/dynamic_content",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 13,
+        "text": "Dynamic Controls",
+        "href": "https://the-internet.herokuapp.com/dynamic_controls",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 14,
+        "text": "Dynamic Loading",
+        "href": "https://the-internet.herokuapp.com/dynamic_loading",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 15,
+        "text": "Entry Ad",
+        "href": "https://the-internet.herokuapp.com/entry_ad",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 16,
+        "text": "Exit Intent",
+        "href": "https://the-internet.herokuapp.com/exit_intent",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 17,
+        "text": "File Download",
+        "href": "https://the-internet.herokuapp.com/download",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 18,
+        "text": "File Upload",
+        "href": "https://the-internet.herokuapp.com/upload",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 19,
+        "text": "Floating Menu",
+        "href": "https://the-internet.herokuapp.com/floating_menu",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 20,
+        "text": "Forgot Password",
+        "href": "https://the-internet.herokuapp.com/forgot_password",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 21,
+        "text": "Form Authentication",
+        "href": "https://the-internet.herokuapp.com/login",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 22,
+        "text": "Frames",
+        "href": "https://the-internet.herokuapp.com/frames",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 23,
+        "text": "Geolocation",
+        "href": "https://the-internet.herokuapp.com/geolocation",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 24,
+        "text": "Horizontal Slider",
+        "href": "https://the-internet.herokuapp.com/horizontal_slider",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 25,
+        "text": "Hovers",
+        "href": "https://the-internet.herokuapp.com/hovers",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 26,
+        "text": "Infinite Scroll",
+        "href": "https://the-internet.herokuapp.com/infinite_scroll",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 27,
+        "text": "Inputs",
+        "href": "https://the-internet.herokuapp.com/inputs",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 28,
+        "text": "JQuery UI Menus",
+        "href": "https://the-internet.herokuapp.com/jqueryui/menu",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 29,
+        "text": "JavaScript Alerts",
+        "href": "https://the-internet.herokuapp.com/javascript_alerts",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 30,
+        "text": "JavaScript onload event error",
+        "href": "https://the-internet.herokuapp.com/javascript_error",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 31,
+        "text": "Key Presses",
+        "href": "https://the-internet.herokuapp.com/key_presses",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 32,
+        "text": "Large & Deep DOM",
+        "href": "https://the-internet.herokuapp.com/large",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 33,
+        "text": "Multiple Windows",
+        "href": "https://the-internet.herokuapp.com/windows",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 34,
+        "text": "Nested Frames",
+        "href": "https://the-internet.herokuapp.com/nested_frames",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 35,
+        "text": "Notification Messages",
+        "href": "https://the-internet.herokuapp.com/notification_message",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 36,
+        "text": "Redirect Link",
+        "href": "https://the-internet.herokuapp.com/redirector",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 37,
+        "text": "Secure File Download",
+        "href": "https://the-internet.herokuapp.com/download_secure",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 38,
+        "text": "Shadow DOM",
+        "href": "https://the-internet.herokuapp.com/shadowdom",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 39,
+        "text": "Shifting Content",
+        "href": "https://the-internet.herokuapp.com/shifting_content",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 40,
+        "text": "Slow Resources",
+        "href": "https://the-internet.herokuapp.com/slow",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 41,
+        "text": "Sortable Data Tables",
+        "href": "https://the-internet.herokuapp.com/tables",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 42,
+        "text": "Status Codes",
+        "href": "https://the-internet.herokuapp.com/status_codes",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 43,
+        "text": "Typos",
+        "href": "https://the-internet.herokuapp.com/typos",
+        "target": "",
+        "title": ""
+      },
+      {
+        "index": 44,
+        "text": "WYSIWYG Editor",
+        "href": "https://the-internet.herokuapp.com/tinymce",
+        "target": "",
+        "title": ""
+      }
+    ],
+    "total_nav_links": 44,
+    "page_source_length": 4063
+  },
+  "authentication": {
+    "login_page_url": "https://the-internet.herokuapp.com/login",
+    "login_page_title": "The Internet",
+    "form_structure": {
+      "action": "https://the-internet.herokuapp.com/authenticate",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "name": "username",
+          "id": "username",
+          "placeholder": "",
+          "required": null,
+          "value": ""
+        },
+        {
+          "type": "password",
+          "name": "password",
+          "id": "password",
+          "placeholder": "",
+          "required": null,
+          "value": ""
+        }
+      ]
+    },
+    "secure_area": {
+      "secure_url": "https://the-internet.herokuapp.com/secure",
+      "secure_title": "The Internet",
+      "login_success": true,
+      "success_message": {
+        "text": "You logged into a secure area!\n×",
+        "class": "flash success",
+        "visible": true
+      },
+      "content_paragraphs": [],
+      "logout_test": {
+        "text": "Logout",
+        "href": "https://the-internet.herokuapp.com/logout",
+        "available": true,
+        "result": {
+          "final_url": "https://the-internet.herokuapp.com/secure",
+          "redirected_to_login": false,
+          "message": "You logged into a secure area!\n×"
+        }
+      }
+    }
+  },
+  "tables": {
+    "page_url": "https://the-internet.herokuapp.com/",
+    "page_title": "The Internet",
+    "tables": []
+  },
+  "forms": {
+    "dropdowns": {
+      "page_url": "https://the-internet.herokuapp.com/dropdown",
+      "dropdowns": [
+        {
+          "id": "dropdown",
+          "name": "",
+          "multiple": false,
+          "options": [
+            {
+              "text": "Please select an option",
+              "value": "",
+              "selected": true,
+              "disabled": true
+            },
+            {
+              "text": "Option 1",
+              "value": "1",
+              "selected": false,
+              "disabled": false
+            },
+            {
+              "text": "Option 2",
+              "value": "2",
+              "selected": false,
+              "disabled": false
+            }
+          ]
+        }
+      ]
+    },
+    "checkboxes": {
+      "page_url": "https://the-internet.herokuapp.com/checkboxes",
+      "checkboxes": [
+        {
+          "index": 1,
+          "id": "checkbox_1",
+          "name": "",
+          "value": "on",
+          "initial_state": false,
+          "after_click_state": true,
+          "toggle_successful": true
+        },
+        {
+          "index": 2,
+          "id": "checkbox_2",
+          "name": "",
+          "value": "on",
+          "initial_state": true,
+          "after_click_state": false,
+          "toggle_successful": true
+        }
+      ]
+    }
+  },
+  "file_operations": {
+    "downloads": {
+      "page_url": "https://the-internet.herokuapp.com/download",
+      "available_files": [
+        {
+          "filename": "New test data - sample file.txt",
+          "url": "https://the-internet.herokuapp.com/download/New%20test%20data%20-%20sample%20file.txt",
+          "size_estimate": 31,
+          "extension": "txt"
+        },
+        {
+          "filename": "special!@#file.txt",
+          "url": "https://the-internet.herokuapp.com/download/special!@#file.txt",
+          "size_estimate": 18,
+          "extension": "txt"
+        },
+        {
+          "filename": "upload-test.txt",
+          "url": "https://the-internet.herokuapp.com/download/upload-test.txt",
+          "size_estimate": 15,
+          "extension": "txt"
+        },
+        {
+          "filename": "test_upload.txt",
+          "url": "https://the-internet.herokuapp.com/download/test_upload.txt",
+          "size_estimate": 15,
+          "extension": "txt"
+        },
+        {
+          "filename": "tmp30wg3l6z.txt",
+          "url": "https://the-internet.herokuapp.com/download/tmp30wg3l6z.txt",
+          "size_estimate": 15,
+          "extension": "txt"
+        },
+        {
+          "filename": "autolib_test_upload.txt",
+          "url": "https://the-internet.herokuapp.com/download/autolib_test_upload.txt",
+          "size_estimate": 23,
+          "extension": "txt"
+        },
+        {
+          "filename": "test_document.txt",
+          "url": "https://the-internet.herokuapp.com/download/test_document.txt",
+          "size_estimate": 17,
+          "extension": "txt"
+        },
+        {
+          "filename": "closeup-scarlet-macaw.jpg",
+          "url": "https://the-internet.herokuapp.com/download/closeup-scarlet-macaw.jpg",
+          "size_estimate": 25,
+          "extension": "jpg"
+        },
+        {
+          "filename": "Test Upload demo.txt",
+          "url": "https://the-internet.herokuapp.com/download/Test%20Upload%20demo.txt",
+          "size_estimate": 20,
+          "extension": "txt"
+        },
+        {
+          "filename": "panda.png",
+          "url": "https://the-internet.herokuapp.com/download/panda.png",
+          "size_estimate": 9,
+          "extension": "png"
+        },
+        {
+          "filename": "sample.csv",
+          "url": "https://the-internet.herokuapp.com/download/sample.csv",
+          "size_estimate": 10,
+          "extension": "csv"
+        },
+        {
+          "filename": "inputdata.json",
+          "url": "https://the-internet.herokuapp.com/download/inputdata.json",
+          "size_estimate": 14,
+          "extension": "json"
+        },
+        {
+          "filename": "upload-me.txt",
+          "url": "https://the-internet.herokuapp.com/download/upload-me.txt",
+          "size_estimate": 13,
+          "extension": "txt"
+        },
+        {
+          "filename": "AppoinmentDntobs.docx",
+          "url": "https://the-internet.herokuapp.com/download/AppoinmentDntobs.docx",
+          "size_estimate": 21,
+          "extension": "docx"
+        },
+        {
+          "filename": "webdriverIO.png",
+          "url": "https://the-internet.herokuapp.com/download/webdriverIO.png",
+          "size_estimate": 15,
+          "extension": "png"
+        },
+        {
+          "filename": "special_characters_multilanguage.pdf",
+          "url": "https://the-internet.herokuapp.com/download/special_characters_multilanguage.pdf",
+          "size_estimate": 36,
+          "extension": "pdf"
+        },
+        {
+          "filename": "file_1775820690374.pdf",
+          "url": "https://the-internet.herokuapp.com/download/file_1775820690374.pdf",
+          "size_estimate": 22,
+          "extension": "pdf"
+        },
+        {
+          "filename": "image1.png",
+          "url": "https://the-internet.herokuapp.com/download/image1.png",
+          "size_estimate": 10,
+          "extension": "png"
+        },
+        {
+          "filename": "tmpou6mv5wf.txt",
+          "url": "https://the-internet.herokuapp.com/download/tmpou6mv5wf.txt",
+          "size_estimate": 15,
+          "extension": "txt"
+        },
+        {
+          "filename": "authentication.png",
+          "url": "https://the-internet.herokuapp.com/download/authentication.png",
+          "size_estimate": 18,
+          "extension": "png"
+        },
+        {
+          "filename": "ffdf6d0e1051d3ad30426bf51192486b.webm",
+          "url": "https://the-internet.herokuapp.com/download/ffdf6d0e1051d3ad30426bf51192486b.webm",
+          "size_estimate": 37,
+          "extension": "webm"
+        },
+        {
+          "filename": "screenshot.png",
+          "url": "https://the-internet.herokuapp.com/download/screenshot.png",
+          "size_estimate": 14,
+          "extension": "png"
+        },
+        {
+          "filename": "targetScreenshot (3).png",
+          "url": "https://the-internet.herokuapp.com/download/targetScreenshot%20(3).png",
+          "size_estimate": 24,
+          "extension": "png"
+        },
+        {
+          "filename": "pwts.txt",
+          "url": "https://the-internet.herokuapp.com/download/pwts.txt",
+          "size_estimate": 8,
+          "extension": "txt"
+        },
+        {
+          "filename": "47cd47df-943e-4e9b-8925-5fb043b41ae4.txt",
+          "url": "https://the-internet.herokuapp.com/download/47cd47df-943e-4e9b-8925-5fb043b41ae4.txt",
+          "size_estimate": 40,
+          "extension": "txt"
+        },
+        {
+          "filename": "sample.pdf",
+          "url": "https://the-internet.herokuapp.com/download/sample.pdf",
+          "size_estimate": 10,
+          "extension": "pdf"
+        },
+        {
+          "filename": "sample-1mb-test-file.dat",
+          "url": "https://the-internet.herokuapp.com/download/sample-1mb-test-file.dat",
+          "size_estimate": 24,
+          "extension": "dat"
+        },
+        {
+          "filename": "Selenium Sceernshot.jpg",
+          "url": "https://the-internet.herokuapp.com/download/Selenium%20Sceernshot.jpg",
+          "size_estimate": 23,
+          "extension": "jpg"
+        },
+        {
+          "filename": "image2.png",
+          "url": "https://the-internet.herokuapp.com/download/image2.png",
+          "size_estimate": 10,
+          "extension": "png"
+        },
+        {
+          "filename": "Doc1.docx",
+          "url": "https://the-internet.herokuapp.com/download/Doc1.docx",
+          "size_estimate": 9,
+          "extension": "docx"
+        },
+        {
+          "filename": "file.json",
+          "url": "https://the-internet.herokuapp.com/download/file.json",
+          "size_estimate": 9,
+          "extension": "json"
+        },
+        {
+          "filename": "image.jpg",
+          "url": "https://the-internet.herokuapp.com/download/image.jpg",
+          "size_estimate": 9,
+          "extension": "jpg"
+        },
+        {
+          "filename": "chromedriver.exe",
+          "url": "https://the-internet.herokuapp.com/download/chromedriver.exe",
+          "size_estimate": 16,
+          "extension": "exe"
+        },
+        {
+          "filename": "Seafight.exe",
+          "url": "https://the-internet.herokuapp.com/download/Seafight.exe",
+          "size_estimate": 12,
+          "extension": "exe"
+        },
+        {
+          "filename": "vangalaADP 1.pdf (1).pdf",
+          "url": "https://the-internet.herokuapp.com/download/vangalaADP%201.pdf%20(1).pdf",
+          "size_estimate": 24,
+          "extension": "pdf"
+        },
+        {
+          "filename": "sample3.pdf",
+          "url": "https://the-internet.herokuapp.com/download/sample3.pdf",
+          "size_estimate": 11,
+          "extension": "pdf"
+        },
+        {
+          "filename": "ecommerce.json",
+          "url": "https://the-internet.herokuapp.com/download/ecommerce.json",
+          "size_estimate": 14,
+          "extension": "json"
+        },
+        {
+          "filename": "Screenshot 2026-02-04 114629.png",
+          "url": "https://the-internet.herokuapp.com/download/Screenshot%202026-02-04%20114629.png",
+          "size_estimate": 32,
+          "extension": "png"
+        },
+        {
+          "filename": "test.spec.ts",
+          "url": "https://the-internet.herokuapp.com/download/test.spec.ts",
+          "size_estimate": 12,
+          "extension": "ts"
+        },
+        {
+          "filename": "25e09ce2-03bf-4111-9264-bde75d82cc67.txt",
+          "url": "https://the-internet.herokuapp.com/download/25e09ce2-03bf-4111-9264-bde75d82cc67.txt",
+          "size_estimate": 40,
+          "extension": "txt"
+        },
+        {
+          "filename": "test-file.txt",
+          "url": "https://the-internet.herokuapp.com/download/test-file.txt",
+          "size_estimate": 13,
+          "extension": "txt"
+        },
+        {
+          "filename": "sample.txt",
+          "url": "https://the-internet.herokuapp.com/download/sample.txt",
+          "size_estimate": 10,
+          "extension": "txt"
+        },
+        {
+          "filename": "LambdaTest.txt",
+          "url": "https://the-internet.herokuapp.com/download/LambdaTest.txt",
+          "size_estimate": 14,
+          "extension": "txt"
+        },
+        {
+          "filename": "image_sample.png",
+          "url": "https://the-internet.herokuapp.com/download/image_sample.png",
+          "size_estimate": 16,
+          "extension": "png"
+        },
+        {
+          "filename": "sampleFile.txt",
+          "url": "https://the-internet.herokuapp.com/download/sampleFile.txt",
+          "size_estimate": 14,
+          "extension": "txt"
+        },
+        {
+          "filename": "input.csv",
+          "url": "https://the-internet.herokuapp.com/download/input.csv",
+          "size_estimate": 9,
+          "extension": "csv"
+        },
+        {
+          "filename": "file_1775820804098.pdf",
+          "url": "https://the-internet.herokuapp.com/download/file_1775820804098.pdf",
+          "size_estimate": 22,
+          "extension": "pdf"
+        },
+        {
+          "filename": "test_image.png",
+          "url": "https://the-internet.herokuapp.com/download/test_image.png",
+          "size_estimate": 14,
+          "extension": "png"
+        },
+        {
+          "filename": "PlayWright.pptx",
+          "url": "https://the-internet.herokuapp.com/download/PlayWright.pptx",
+          "size_estimate": 15,
+          "extension": "pptx"
+        },
+        {
+          "filename": "Test.txt",
+          "url": "https://the-internet.herokuapp.com/download/Test.txt",
+          "size_estimate": 8,
+          "extension": "txt"
+        },
+        {
+          "filename": "Sk_Khaja_mohiddin_QA (1) (1).pdf",
+          "url": "https://the-internet.herokuapp.com/download/Sk_Khaja_mohiddin_QA%20(1)%20(1).pdf",
+          "size_estimate": 32,
+          "extension": "pdf"
+        },
+        {
+          "filename": "dummy.txt",
+          "url": "https://the-internet.herokuapp.com/download/dummy.txt",
+          "size_estimate": 9,
+          "extension": "txt"
+        },
+        {
+          "filename": "Note1.pptx",
+          "url": "https://the-internet.herokuapp.com/download/Note1.pptx",
+          "size_estimate": 10,
+          "extension": "pptx"
+        },
+        {
+          "filename": "Automation_Note.txt",
+          "url": "https://the-internet.herokuapp.com/download/Automation_Note.txt",
+          "size_estimate": 19,
+          "extension": "txt"
+        },
+        {
+          "filename": "reference_page (1).html",
+          "url": "https://the-internet.herokuapp.com/download/reference_page%20(1).html",
+          "size_estimate": 23,
+          "extension": "html"
+        },
+        {
+          "filename": "apiresponse.csv",
+          "url": "https://the-internet.herokuapp.com/download/apiresponse.csv",
+          "size_estimate": 15,
+          "extension": "csv"
+        },
+        {
+          "filename": "file_1775820726447.pdf",
+          "url": "https://the-internet.herokuapp.com/download/file_1775820726447.pdf",
+          "size_estimate": 22,
+          "extension": "pdf"
+        },
+        {
+          "filename": "Feedback_QA_Ascendion_Girish_3Apr.docx",
+          "url": "https://the-internet.herokuapp.com/download/Feedback_QA_Ascendion_Girish_3Apr.docx",
+          "size_estimate": 38,
+          "extension": "docx"
+        },
+        {
+          "filename": "87CDB36D-BEF8-46D1-B980-3AE75B3D45B2.png",
+          "url": "https://the-internet.herokuapp.com/download/87CDB36D-BEF8-46D1-B980-3AE75B3D45B2.png",
+          "size_estimate": 40,
+          "extension": "png"
+        },
+        {
+          "filename": "file_1775820751741.pdf",
+          "url": "https://the-internet.herokuapp.com/download/file_1775820751741.pdf",
+          "size_estimate": 22,
+          "extension": "pdf"
+        },
+        {
+          "filename": "test.txt",
+          "url": "https://the-internet.herokuapp.com/download/test.txt",
+          "size_estimate": 8,
+          "extension": "txt"
+        },
+        {
+          "filename": "test_upload_file.txt",
+          "url": "https://the-internet.herokuapp.com/download/test_upload_file.txt",
+          "size_estimate": 20,
+          "extension": "txt"
+        },
+        {
+          "filename": "some-file.txt",
+          "url": "https://the-internet.herokuapp.com/download/some-file.txt",
+          "size_estimate": 13,
+          "extension": "txt"
+        },
+        {
+          "filename": "sample-zip-file.zip",
+          "url": "https://the-internet.herokuapp.com/download/sample-zip-file.zip",
+          "size_estimate": 19,
+          "extension": "zip"
+        },
+        {
+          "filename": "megadyneBladeHero.jpg",
+          "url": "https://the-internet.herokuapp.com/download/megadyneBladeHero.jpg",
+          "size_estimate": 21,
+          "extension": "jpg"
+        },
+        {
+          "filename": "2bd1de66-061b-4765-89f2-1d1523e84649.txt",
+          "url": "https://the-internet.herokuapp.com/download/2bd1de66-061b-4765-89f2-1d1523e84649.txt",
+          "size_estimate": 40,
+          "extension": "txt"
+        },
+        {
+          "filename": "ApiTesting.spec.js",
+          "url": "https://the-internet.herokuapp.com/download/ApiTesting.spec.js",
+          "size_estimate": 18,
+          "extension": "js"
+        },
+        {
+          "filename": "testfile.txt",
+          "url": "https://the-internet.herokuapp.com/download/testfile.txt",
+          "size_estimate": 12,
+          "extension": "txt"
+        },
+        {
+          "filename": "Window Handling.txt",
+          "url": "https://the-internet.herokuapp.com/download/Window%20Handling.txt",
+          "size_estimate": 19,
+          "extension": "txt"
+        },
+        {
+          "filename": "random_data.txt",
+          "url": "https://the-internet.herokuapp.com/download/random_data.txt",
+          "size_estimate": 15,
+          "extension": "txt"
+        },
+        {
+          "filename": "Assignment_03.pdf",
+          "url": "https://the-internet.herokuapp.com/download/Assignment_03.pdf",
+          "size_estimate": 17,
+          "extension": "pdf"
+        }
+      ]
+    },
+    "uploads": {
+      "page_url": "https://the-internet.herokuapp.com/upload",
+      "form_analysis": {
+        "action": "https://the-internet.herokuapp.com/upload",
+        "method": "post",
+        "enctype": "multipart/form-data",
+        "file_input": {
+          "name": "file",
+          "accept": "",
+          "multiple": false
+        }
+      }
+    }
+  },
+  "alerts": {
+    "page_url": "https://the-internet.herokuapp.com/javascript_alerts",
+    "alert_buttons": [
+      {
+        "index": 1,
+        "text": "Click for JS Alert",
+        "onclick": "jsAlert()",
+        "id": ""
+      },
+      {
+        "index": 2,
+        "text": "Click for JS Confirm",
+        "onclick": "jsConfirm()",
+        "id": ""
+      },
+      {
+        "index": 3,
+        "text": "Click for JS Prompt",
+        "onclick": "jsPrompt()",
+        "id": ""
+      }
+    ],
+    "alert_tests": []
+  },
+  "status_codes": {
+    "page_url": "https://the-internet.herokuapp.com/status_codes",
+    "available_codes": [
+      {
+        "code": "here",
+        "url": "http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml",
+        "link_text": "here"
+      },
+      {
+        "code": "200",
+        "url": "https://the-internet.herokuapp.com/status_codes/200",
+        "link_text": "200"
+      },
+      {
+        "code": "301",
+        "url": "https://the-internet.herokuapp.com/status_codes/301",
+        "link_text": "301"
+      },
+      {
+        "code": "404",
+        "url": "https://the-internet.herokuapp.com/status_codes/404",
+        "link_text": "404"
+      },
+      {
+        "code": "500",
+        "url": "https://the-internet.herokuapp.com/status_codes/500",
+        "link_text": "500"
+      }
+    ],
+    "status_tests": [
+      {
+        "status_code": "here",
+        "target_url": "http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml",
+        "final_url": "https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml",
+        "page_title": "Hypertext Transfer Protocol (HTTP) Status Code Registry"
+      },
+      {
+        "status_code": "200",
+        "target_url": "https://the-internet.herokuapp.com/status_codes/200",
+        "final_url": "https://the-internet.herokuapp.com/status_codes/200",
+        "page_title": "The Internet",
+        "page_heading": "Status Codes",
+        "description": "This page returned a 200 status code.\n\nFor a definition and common list of HTTP status codes, go here"
+      },
+      {
+        "status_code": "301",
+        "target_url": "https://the-internet.herokuapp.com/status_codes/301",
+        "final_url": "https://the-internet.herokuapp.com/status_codes/301",
+        "page_title": "The Internet",
+        "page_heading": "Status Codes",
+        "description": "This page returned a 301 status code.\n\nFor a definition and common list of HTTP status codes, go here"
+      },
+      {
+        "status_code": "404",
+        "target_url": "https://the-internet.herokuapp.com/status_codes/404",
+        "final_url": "https://the-internet.herokuapp.com/status_codes/404",
+        "page_title": "The Internet",
+        "page_heading": "Status Codes",
+        "description": "This page returned a 404 status code.\n\nFor a definition and common list of HTTP status codes, go here"
+      },
+      {
+        "status_code": "500",
+        "target_url": "https://the-internet.herokuapp.com/status_codes/500",
+        "final_url": "https://the-internet.herokuapp.com/status_codes/500",
+        "page_title": "The Internet",
+        "page_heading": "Status Codes",
+        "description": "This page returned a 500 status code.\n\nFor a definition and common list of HTTP status codes, go here"
+      }
+    ]
+  },
+  "interactive": {
+    "hovers": {
+      "page_url": "https://the-internet.herokuapp.com/hovers",
+      "hover_elements": [
+        {
+          "index": 1,
+          "image_src": "https://the-internet.herokuapp.com/img/avatar-blank.jpg",
+          "image_alt": "User Avatar",
+          "hover_caption": {
+            "text": "name: user1\nView profile",
+            "visible": true,
+            "title": "name: user1",
+            "link": {
+              "text": "View profile",
+              "href": "https://the-internet.herokuapp.com/users/1"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "image_src": "https://the-internet.herokuapp.com/img/avatar-blank.jpg",
+          "image_alt": "User Avatar",
+          "hover_caption": {
+            "text": "name: user2\nView profile",
+            "visible": true,
+            "title": "name: user2",
+            "link": {
+              "text": "View profile",
+              "href": "https://the-internet.herokuapp.com/users/2"
+            }
+          }
+        },
+        {
+          "index": 3,
+          "image_src": "https://the-internet.herokuapp.com/img/avatar-blank.jpg",
+          "image_alt": "User Avatar",
+          "hover_caption": {
+            "text": "name: user3\nView profile",
+            "visible": true,
+            "title": "name: user3",
+            "link": {
+              "text": "View profile",
+              "href": "https://the-internet.herokuapp.com/users/3"
+            }
+          }
+        }
+      ]
+    },
+    "drag_drop": {
+      "page_url": "https://the-internet.herokuapp.com/drag_and_drop",
+      "draggable_elements": [
+        {
+          "index": 1,
+          "id": "column-a",
+          "text": "A",
+          "draggable": true
+        },
+        {
+          "index": 2,
+          "id": "column-b",
+          "text": "B",
+          "draggable": true
+        }
+      ],
+      "drag_test": {
+        "source_before": "A",
+        "target_before": "B",
+        "source_after": "B",
+        "target_after": "A",
+        "drag_successful": true
+      }
+    }
+  },
+  "dynamic_loading": {
+    "page_url": "https://the-internet.herokuapp.com/dynamic_loading",
+    "examples": [
+      {
+        "text": "Example 1: Element on page that is hidden",
+        "href": "https://the-internet.herokuapp.com/dynamic_loading/1"
+      },
+      {
+        "text": "Example 2: Element rendered after the fact",
+        "href": "https://the-internet.herokuapp.com/dynamic_loading/2"
+      }
+    ],
+    "tests": [
+      {
+        "example_number": 1,
+        "example_url": "https://the-internet.herokuapp.com/dynamic_loading/1",
+        "page_title": "The Internet",
+        "start_button_text": "Start",
+        "initial_state": {
+          "loading_visible": false,
+          "finish_visible": false
+        },
+        "final_state": {
+          "loading_complete": true,
+          "load_time": 5.54,
+          "finish_text": "Hello World!"
+        }
+      },
+      {
+        "example_number": 2,
+        "example_url": "https://the-internet.herokuapp.com/dynamic_loading/2",
+        "page_title": "The Internet",
+        "start_button_text": "Start",
+        "initial_state": {
+          "loading_visible": false,
+          "finish_visible": false
+        },
+        "final_state": {
+          "loading_complete": true,
+          "load_time": 5.12,
+          "finish_text": "Hello World!"
+        }
+      }
+    ]
+  },
+  "visual_elements": {
+    "context_menu": {
+      "page_url": "https://the-internet.herokuapp.com/context_menu",
+      "context_area": {
+        "id": "hot-spot",
+        "text": "",
+        "style": "border-style: dashed; border-width: 5px; width: 250px; height: 150px;",
+        "size": {
+          "width": 250,
+          "height": 150
+        }
+      },
+      "context_test": {
+        "alert_triggered": true,
+        "alert_text": "You selected a context menu"
+      }
+    }
+  },
+  "utility_pages": {
+    "broken_images": {
+      "page_url": "https://the-internet.herokuapp.com/broken_images",
+      "images": [
+        {
+          "index": 1,
+          "src": "https://the-internet.herokuapp.com/asdf.jpg",
+          "alt": "",
+          "width": "120",
+          "height": "90",
+          "natural_width": 0,
+          "likely_broken": true
+        },
+        {
+          "index": 2,
+          "src": "https://the-internet.herokuapp.com/hjkl.jpg",
+          "alt": "",
+          "width": "120",
+          "height": "90",
+          "natural_width": 0,
+          "likely_broken": true
+        },
+        {
+          "index": 3,
+          "src": "https://the-internet.herokuapp.com/img/avatar-blank.jpg",
+          "alt": "",
+          "width": "120",
+          "height": "90",
+          "natural_width": 160,
+          "likely_broken": false
+        }
+      ]
+    }
+  },
+  "performance": {
+    "large_dom": {
+      "page_url": "https://the-internet.herokuapp.com/large",
+      "dom_statistics": {
+        "div_count": 262,
+        "page_height": 4396,
+        "table_count": 1,
+        "total_elements": 2943,
+        "viewport_height": 893
+      },
+      "scroll_performance": {
+        "scroll_to_bottom_time": 1.016
+      }
+    }
+  }
+}
