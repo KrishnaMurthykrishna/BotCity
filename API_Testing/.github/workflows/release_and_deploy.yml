@@ -1,3 +1,4 @@
+name: Bot Pipeline
 on:
   push:
     branches:
