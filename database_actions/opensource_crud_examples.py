@@ -642,29 +642,3 @@ def main():
     print("\n❌ Some demos failed. Check the error messages above.")
     return False
 
-if __name__ == "__main__":
-    """
-    Run the complete open source database demo.
-    
-    This demo requires no server setup - SQLite works immediately!
-    """
-    
-    print("🎯 STARTING OPEN SOURCE DATABASE DEMO")
-    print("No SQL Server, localhost, or server setup needed!")
-    print()
-    
-    try:
-        success = main()
-        
-        if success:
-            print("\n✨ Demo completed successfully!")
-            print("You're ready to use open source databases with the CRUD framework! 🚀")
-        else:
-            print("\n⚠️ Demo had issues. Check error messages for troubleshooting.")
-            
-    except KeyboardInterrupt:
-        print("\n\n⏹️ Demo cancelled by user.")
-    except Exception as e:
-        print(f"\n❌ Unexpected error: {str(e)}")
-        import traceback
-        traceback.print_exc()

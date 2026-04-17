@@ -82,14 +82,11 @@ def generate_dataset_menu():
         # Get user preferences
         print(f"📊 Dataset Configuration:")
         
-        rows_input = input(f"   Rows (default 1,000,000): ").strip()
-        rows = int(rows_input) if rows_input else 1000000
+        rows = 10000  # Default 10 lakh rows
+        cols =100
         
-        cols_input = input(f"   Columns (default 100): ").strip()
-        cols = int(cols_input) if cols_input else 100
         
-        filename = input(f"   Filename (default: business_data_1M_100cols.csv): ").strip()
-        filename = filename if filename else "business_data_1M_100cols.csv"
+        filename = "business_data_1M_100cols.csv"
         
         # Generate dataset
         generator = LargeDatasetGenerator(rows=rows, columns=cols)
@@ -397,37 +394,9 @@ def main():
         print(f"\nPlease install missing dependencies and try again.")
         return
     
-    while True:
-        show_menu()
-        
-        choice = input(f"\nSelect option (0-6): ").strip()
-        
-        if choice == '0':
-            print(f"\n👋 Thanks for using Pandas Analysis Suite!")
-            break
-            
-        elif choice == '1':
-            generate_dataset_menu()
-            
-        elif choice == '2':
-            run_conditions_demo()
-            
-        elif choice == '3':
-            run_pivot_tables()
-            
-        elif choice == '4':
-            run_complete_workflow()
-            
-        elif choice == '5':
-            run_performance_benchmark()
-            
-        elif choice == '6':
-            show_dataset_info()
-            
-        else:
-            print(f"❌ Invalid choice. Please select 0-6.")
-            time.sleep(1)
-
+    show_menu()
+    generate_dataset_menu()
+    run_conditions_demo()
 
 if __name__ == "__main__":
     main()

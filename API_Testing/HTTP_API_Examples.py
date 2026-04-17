@@ -252,6 +252,3 @@ def main():
     finally:
         print("\n👋 HTTP API testing session completed")
 
-
-if __name__ == "__main__":
-    main()

@@ -337,21 +337,8 @@ def main():
     print("2. 🧪 Mini Test Suite (3 minutes)")  
     print("3. 🚀 Both demos")
     
-    try:
-        choice = input("\nEnter choice (1, 2, or 3): ").strip()
-        
-        if choice == "1":
-            run_quick_demo()
-        elif choice == "2":
-            run_mini_test_suite()
-        elif choice == "3":
-            run_quick_demo()
-            print("\n" + "="*50)
-            run_mini_test_suite()
-        else:
-            print("Invalid choice. Running quick demo...")
-            run_quick_demo()
-            
+    try:        
+        run_quick_demo()            
     except KeyboardInterrupt:
         print("\n⚠️ Demo interrupted by user")
     except Exception as e:

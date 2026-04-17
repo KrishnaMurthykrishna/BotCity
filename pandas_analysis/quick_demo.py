@@ -19,7 +19,7 @@ import pandas as pd
 import numpy as np
 import time
 from datetime import datetime, timedelta
-
+from multiple_conditions_examples import run_conditions_demo  # Assuming this is the expert class with all demos
 
 def create_sample_data(rows=50000):
     """🚀 Create sample business dataset"""
@@ -375,7 +375,6 @@ def run_pandas_conditions_demo():
     print(f"\n📋 Sample data with segments:")
     sample_cols = ['customer_id', 'amount', 'score', 'country', 'segment']
     print(df[sample_cols].head(5).to_string(index=False))
-
-
-if __name__ == "__main__":
-    run_pandas_conditions_demo()
+    run_conditions_demo()  # Run the expert demo with all conditions examples
+    
+    

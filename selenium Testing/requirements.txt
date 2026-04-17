@@ -12,6 +12,7 @@
 
 # Core Selenium WebDriver
 selenium>=4.15.0
+botcity-maestro-sdk>=0.3.3,<1.0
 
 # Additional useful packages (optional but recommended)
 # Uncomment the lines below to install additional testing tools:

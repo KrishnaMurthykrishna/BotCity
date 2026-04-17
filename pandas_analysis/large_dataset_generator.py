@@ -64,7 +64,7 @@ class LargeDatasetGenerator:
         print(f"📋 Generating {len(column_config)} business columns...")
         
         # Generate data in chunks to manage memory
-        csv_path = os.path.join(os.getcwd(), filename)
+        csv_path = filename
         
         try:
             first_chunk = True

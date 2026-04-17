@@ -488,5 +488,3 @@ def run_conditions_demo():
     expert.run_all_demos(sample_size=100000)  # Use 100k sample for faster demo
 
 
-if __name__ == "__main__":
-    run_conditions_demo()

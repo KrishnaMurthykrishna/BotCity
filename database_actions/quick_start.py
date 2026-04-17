@@ -400,16 +400,3 @@ def main():
     print("• Adapt the configuration for your specific needs")
     
     return True
-
-if __name__ == "__main__":
-    try:
-        success = main()
-        if not success:
-            print("\n❌ Quick start failed. Please check the error messages above.")
-            sys.exit(1)
-    except KeyboardInterrupt:
-        print("\n\n⏹️ Quick start cancelled by user.")
-        sys.exit(0)
-    except Exception as e:
-        print(f"\n❌ Unexpected error: {str(e)}")
-        sys.exit(1)
